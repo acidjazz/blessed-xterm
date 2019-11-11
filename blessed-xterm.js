@@ -43,7 +43,7 @@ class XTerm extends blessed.Box {
     constructor (options = {}) {
         /*  clone options or all widget instances will show
             at least the same style, etc.  */
-        options = clone(options)
+        // options = clone(options)
 
         /*  disable the special "scrollable" feature of Blessed's Element
             which would use a ScrolledBox instead of a Box under the surface  */
